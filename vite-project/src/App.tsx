@@ -1,15 +1,17 @@
-import ListGroup from './ListGroup';
-
+import ListGroup from "./components/ListGroup";
+import ListOne from "./components/ListOne.tsx";
+import ListTwo from "./components/ListTwo";
+import ListThree from "./components/ListThree";
 
 function App() {
-  return
-  <div>
-    <ListGroup />
-
-  </div>
-  
-  
-            
+  return (
+    <div>
+      <ListGroup />
+      <ListOne />
+      <ListTwo />
+      <ListThree />
+    </div>
+  );
 }
 
-export default App
+export default App;
