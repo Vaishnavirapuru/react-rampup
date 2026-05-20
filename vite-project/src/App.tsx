@@ -1,15 +1,17 @@
 import ListGroup from "./components/ListGroup";
-import ListOne from "./components/ListOne.tsx";
-import ListTwo from "./components/ListTwo";
-import ListThree from "./components/ListThree";
+// import ListOne from "./components/ListOne.tsx";
+// import ListTwo from "./components/ListTwo";
+// import ListThree from "./components/ListThree";
+// import Message from "./components/Messasge";
 
 function App() {
   return (
     <div>
+      {/* <Message /> */}
       <ListGroup />
-      <ListOne />
+      {/* <ListOne />
       <ListTwo />
-      <ListThree />
+      <ListThree /> */}
     </div>
   );
 }
