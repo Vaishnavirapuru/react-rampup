@@ -1,12 +1,12 @@
-
-import Message from './Message';
+import ListGroup from "./ListGroup";
+// import Message from "./components/Message";
 
 function App() {
-  return
-  <div><Message/></div>
-  
-  
-            
+  return;
+  <div>
+     {/* <Message /> */}
+    <ListGroup />
+  </div>;
 }
 
-export default App
+export default App;
