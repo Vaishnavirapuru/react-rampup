@@ -1,17 +1,19 @@
-import ListGroup from "./components/ListGroup";
-import ListOne from "./components/ListOne.tsx";
-  import ListTwo from "./components/ListTwo";
- import ListThree from "./components/ListThree";
-  import Message from "./components/Message";
+
+import ListGroupprops from './components/ListGroupprops'
 
 function App() {
+  let items=[ "New york", "San Francisco", "Tokyo", "London", "Paris" ] 
+  const handleSelectItem={item: string}=>{
+    console.log(item)
+  }
   return (
     <div>
-       < Message />
+      <ListGroupprops item={items} heading="cities" onSelectItem={handleSelectItem} ></ListGroupprops>
+       {/* < Message />
       <ListGroup />
        <ListOne/>
       <ListTwo />
-      <ListThree />
+      <ListThree /> */}
     </div>
   );
 }
